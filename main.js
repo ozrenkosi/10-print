@@ -6,6 +6,8 @@ function setup() {
   createCanvas(500, 600);
   background(0);
 
+  createP("Click on canvas to restart sketch").position(135, 620).style("font-size: 12pt; font-family: sans-serif; color: #BBB; cursor: default");
+
   textSize(18);
   textAlign(CENTER, CENTER);
   textStyle(BOLD);
